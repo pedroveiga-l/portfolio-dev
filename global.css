@@ -35,3 +35,18 @@ body {
     font: var(--text-sm);
     color: var(--gray-300);
 }
+
+#container {
+    min-height: 2894px;
+
+    background-image: url("assets/images/Background_Intro.png"), linear-gradient(var(--gray-500), var(--gray-500)),
+        linear-gradient(var(--gray-600), var(--gray-600)), url("assets/images/Background_Contacts.png");
+
+    background-size: 100% 750px, 100% 917px, 100% 480px, 100% 747px;
+
+    background-position: top left, left 750px, left 1667px,
+        left 2147px;
+
+    background-repeat: no-repeat;
+    background-color: var(--gray-600);
+}
