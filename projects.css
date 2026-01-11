@@ -1,0 +1,48 @@
+#grid-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 56px;
+    gap: 24px;
+}
+
+#projects {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+#projectsText {
+    text-align: center;
+    padding: 8px;
+}
+
+#projectsText p {
+    font: var(--subtitle);
+    color: var(--red);
+    padding-bottom: 8px;
+}
+
+#grid-projects h3 {
+    color: var(--gray-100);
+    font: var(--title-sm);
+    padding-bottom: 8px;
+}
+
+#grid-projects p {
+    color: var(--gray-200);
+    font: var(--text-sm);
+    padding-bottom: 8px;
+}
+
+.card {
+    background: var(--gray-400);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
