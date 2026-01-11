@@ -21,14 +21,18 @@
     --inconsolata: "Inconsolata", monospace;
     --maven: "Maven Pro", sans-serif;
 
-    --title-lg: 56px/120% bold var(--asap);
-    --title-md: 24px/120% bold var(--asap);
-    --title-sm: 16px/120% bold var(--asap);
+    --title-lg: bold 56px/120% var(--asap);
+    --title-md: bold 24px/120% var(--asap);
+    --title-sm: bold 16px/120% var(--asap);
 
-    --subtitle: 20px/120% normal var(var(--inconsolata));
+    --subtitle: 20px/120% var(--inconsolata);
 
-    --text-md: 16px/140% normal var(var(--maven));
-    --text-sm: 14px/140% normal var(var(--maven));
+    --text-md: 16px/140% var(--maven);
+    --text-sm: 14px/140% var(--maven);
+}
+
+ul {
+    list-style: none;
 }
 
 body {
